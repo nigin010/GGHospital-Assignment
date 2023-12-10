@@ -8,6 +8,7 @@ body{
 }
 .logo-div{
     flex:1;
+    background-color: #f7f7f7;
 }
 .topnav {
     flex:2;
@@ -15,8 +16,8 @@ body{
     overflow: hidden;
 
   }
-  
-  /* Style the links inside the navigation bar */
+
+
   .topnav a {
     float: left;
     color: #0a0a0a;
@@ -30,23 +31,27 @@ body{
   .top-socials-navbar {
     display : flex;
     justify-content: center;
+    background-color: #f7f7f7;  
   }
 
   .top-socials-section-one {
     flex : 1;
     padding-top : 8px;
     font-size: 15px;
-    padding-bottom : 30px;
+    
+  }
+
+  .follow {
+  vertical-align: 6px;
   }
 
   .top-socials-section-one img {
-    padding-bottom : -3px;
+    
   }
 
   .top-socials-section-three {
     padding-top : 15px;
-    font-size: 15px;
-    padding-bottom : 30px;
+    font-size: 12px;
     margin-right : 15px;
   }
 

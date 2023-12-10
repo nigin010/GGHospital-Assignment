@@ -16,6 +16,13 @@
     
   }
 
+  button:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.1) 0px 2px 4px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+
   .buttonOne {
     height : 50px;
     width : 166px;
@@ -444,4 +451,14 @@ li {
   opacity : 70%;
   padding-top : 40px;
   padding-bottom : 10px;
+}
+
+.aboutgg {
+  text-decoration: none;
+  color : black;
+}
+
+.aboutgg:visited {
+  color : black;
+  text-decoration: none;
 }
