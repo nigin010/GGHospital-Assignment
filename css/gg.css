@@ -37,6 +37,23 @@
     font-weight: normal;
   }
 
+  .doc-talk-desc {
+    color : rgba(0, 0, 0, 0.897);
+    vertical-align: 10px;
+    text-decoration: underline;
+  }
+
+  .title-main a {
+    color : black;
+    font-size : 16px;
+    text-decoration: none;
+    vertical-align: -10px;
+  }
+
+  .title-main img {
+    width : 30px;
+  }
+
   .menu {
    
     background-color: white;
@@ -202,6 +219,10 @@
 .why-gg.points {
   vertical-align: middle;
 }
+
+.follow {
+  vertical-align: 6px;
+  }
 
 li {
   list-style-image: url("../img/tickmark.png");
