@@ -1,0 +1,447 @@
+  .top-header {
+    position : relative;
+    background-image: url("../img/hospImg.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+   
+  }
+
+  .title-main {
+    position:absolute;
+    top: 25%;
+    font-weight : bold;
+    font-size: 40px;
+    margin-left : 130px;
+    
+  }
+
+  .buttonOne {
+    height : 50px;
+    width : 166px;
+    margin-right : 30px;
+    background-color: #17C1A3;
+    border:none;
+    border-radius :7px; 
+  }
+
+  .subheading {
+    font-size : 17px;
+    font-weight: normal;
+  }
+
+  .menu {
+   
+    background-color: white;
+    position: absolute;
+    border-radius : 10px;
+    top: 88%;
+    left: 7%;
+  }
+
+  .booking-heading {
+    padding-top : 20px;
+    padding-bottom : 30px;
+    padding-left : 15px;
+    font-weight : bold;
+  }
+
+  .menu-row-one {
+    display : flex;
+    padding-bottom : 20px;
+    padding-left : 15px;
+  }
+
+  
+.inputbox {
+    flex : 1;
+    margin-right : 30px;
+    height : 50px;
+    border-radius :7px;
+    border : solid #ccc;
+    border-color:none;
+}
+
+.dropdown {
+    height : 50px;
+    width : 347px;
+    border-radius :7px;
+    border : solid #ccc;
+
+}
+
+.menu-row-two {
+    display : flex;
+    padding-bottom : 20px;
+    padding-left : 15px;
+}
+
+.select-doctor {
+    flex : 1;
+    height : 50px;
+    width : 347px;
+    margin-right : 30px;
+}
+
+.select-department {
+    flex : 1;
+    height : 50px;
+    width : 347px;
+    margin-right : 30px;
+}
+
+.appointmentbutton {
+    flex : 1;
+    height : 50px;
+    width : 347px;
+    margin-right : 30px;
+    background-color: #17C1A3;
+    border:none;
+    border-radius :7px;
+}
+
+.book-head {
+  font-size : 20px;
+  color : rgb(77, 76, 76);
+}
+
+.depts-section {
+  margin-left : 20px;
+  margin-top : 50px;
+}
+
+.dept-row-one {
+  display : flex;
+}
+
+.depts-heading {
+  margin-bottom : 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size : 24px;  
+}
+
+
+
+.arrows-img {
+  padding-top : 20px;
+  padding-left : 990px;
+}
+
+.tiles-section {
+  display : flex;
+  justify-content: center;
+}
+
+.tile-one {
+  flex : 1;
+  margin-right: 20px;
+
+}
+.image-inside-tile-props {
+  width :400px;
+}
+
+.tile-image-info {
+  font-size : 12px;
+  line-height : 22px;
+}
+
+.read-more {
+  color : #17C1A3;
+  font-size : 15px;
+  text-decoration: none;
+
+}
+
+.why-gg-section{
+  position: relative;
+  background-image: url("../img/Doctors-Section-Background.png");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
+
+.why-gg-info-section {
+  display : flex;
+}
+
+.doctors-image-section img{
+  position: absolute;
+  top : 7%;
+  flex : 1;
+  width : 1000px;
+  padding-left : 50px;
+}
+
+.why-gg-heading {
+  font-weight : bold;
+  font-size : 25px;
+}
+
+.why-gg-data {
+  position : absolute;
+  left : 60%;
+  top : 12%;
+  vertical-align: middle;
+  padding-top : 85px;
+}
+
+.each-point-data { 
+  top : 50px;
+  vertical-align: middle;
+}
+
+.why-gg.points {
+  vertical-align: middle;
+}
+
+li {
+  list-style-image: url("../img/tickmark.png");
+  padding-inline-start: 1ch;
+  vertical-align: middle;
+  line-height: 45px;
+}
+
+.specialist-section {
+  margin-top : 100px;
+  margin-left : 30px;
+  margin-bottom : 100px;
+}
+.specialist-main-heading {
+  font-weight : bold;
+  font-size : 30px;
+}
+
+.specialist-sub-heading {
+  color: #211E1E;
+  opacity: 80%;
+}
+
+.special-docs-list {
+  display : flex;
+  justify-content: center;
+}
+
+.listone {
+  margin-right : 30px;
+}
+.special-doc-image img {
+  width : 300px;
+}
+
+.specialdocname {
+  padding-top : 10px;
+  font-weight : bold;
+  text-align: center;
+  padding-bottom : 10px;
+}
+
+.specialdocdesig {
+  text-align: center;
+  opacity : 80%;
+  font-size : 15px;
+}
+
+.view-more {
+  margin-top : 30px;
+
+}
+
+.view-more-button {
+  height : 50px;
+  width : 166px;
+  margin-right : 30px;
+  background-color: #17C1A3;
+  border:none;
+  border-radius :7px; 
+}
+
+.facilities-activites-section {
+  margin-bottom : 300px;
+}
+
+.facilities-heading-row {
+  display : flex;
+}
+
+.facilities-title {
+
+  font-weight : bold;
+  margin-bottom : 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size : 24px; 
+  margin-left : 540px; 
+}
+
+.facilities-arrows-img {
+  padding-top : 20px;
+  margin-left : 370px;
+}
+
+.interested-arrows-img {
+  padding-top : 20px;
+  margin-left : 330px;
+}
+
+.facilities-images-section{
+  margin-left : 30px;
+}
+.facilities-images-section img {
+  width : 410px;
+  margin-right : 25px;
+}
+
+
+.interested-newsletter-section {
+  position: relative;
+  background-image: url("../img/interestedbackground.png  ");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
+
+.interested-page {
+  position : absolute;
+  bottom :60%;
+}
+
+.interested-tiles-section {
+  margin-left : 50px; 
+  margin-top : 30px;
+  display : flex;
+}
+
+.newsletter-container {
+  margin-left : 40px;
+  position : absolute;
+  top : 60%;
+  width : 1250px;
+  height : 200px;
+  background-color: white;
+}
+
+.newsletter-container img {
+  height : 200px;
+  width : 750px;
+}
+
+.newsletter-caption {
+  position : absolute;
+  top : 35%;
+  left : 3%;
+  font-weight : bold;
+  font-size : 30px;
+}
+
+.newsletter-textbox {
+  position : absolute;
+  top : 50%;
+  right : 8%;
+  width : 500px;
+  height : 35px;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid #211E1E;
+  padding-bottom : 5px;
+  font-size : 18px;
+}
+
+.subscribe-button {
+  position : absolute;
+  top : 42%;
+  right : 5.6%;
+  height : 50px;
+  width : 166px;
+  margin-right : 30px;
+  background-color: #17C1A3;
+  border:none;
+  border-radius :7px; 
+}
+
+.footer-section-one {
+  display : flex;
+}
+
+.footer-section-one-left-panel {
+  flex : 2;
+  margin-left : 70px;
+}
+
+.footer-hospital-logo {
+  padding-bottom : 20px;
+}
+
+.footer-hospital-info {
+  font-size: 14px;
+  opacity : 90%;
+  margin-bottom : 40px;
+}
+
+.footer-section-one-right-panel {
+  flex : 3;
+  text-align: center;
+  margin-left : 100px;
+  display : flex;
+  margin-top : 13px;
+}
+
+.footer td,th,tr {
+  text-align : left;
+  width : 150px;
+  height : 50px;
+  box-sizing: border-box;
+}
+
+
+.footer-table-one {
+  margin-right : 40px;
+}
+
+.footer-hr {
+  margin-left : 65px;
+  margin-right : 90px;
+}
+
+.footer-section-two {
+  display : flex;
+  margin-left : 67px;
+  margin-top : 25px;
+  line-height :25px;
+}
+
+.footer-address {
+  flex : 1.5;
+  margin-right :60px;
+}
+
+.footer-phone {
+  flex : 1;
+  margin-left : -30px;
+}
+
+.footer-mail {
+  flex : 1;
+  margin-left : -30px;
+}
+
+.footer-socials {
+  flex : 1;
+}
+
+.socials-caption {
+  font-weight : bold;
+  
+}
+
+.footer-address-data {
+  font-size : 13px;
+}
+
+.footer-section-three {
+  font-size : 12px;
+  opacity : 70%;
+  padding-top : 40px;
+  padding-bottom : 10px;
+}
